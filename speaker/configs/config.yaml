@@ -1,0 +1,25 @@
+defaults:
+ - peft: null
+
+eval_mode: null
+eval_data: null
+stream: false
+save_conversation_pairs: null
+few_shot_pairs: null
+
+temperature: 1.0
+train_mode: null
+train_data: null
+epochs: 1000
+lr: 0.001
+save_freq: 1000
+batch_size: 512
+length: 1000000
+context_window: 512
+device: null
+save_folder: null
+lora: null
+pretrained_path: null
+precision: bfloat16
+use_auth_token: null
+system: null

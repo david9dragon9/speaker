@@ -1,0 +1,6 @@
+transformers
+numpy
+torch
+hydra-core
+tqdm
+fschat[model_worker,webui]
